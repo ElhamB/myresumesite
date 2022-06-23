@@ -1,0 +1,140 @@
+#blog {
+  background-color: #101010;
+}
+
+.blog-post .blog-img {
+  position: relative;
+  height: 237px;
+  overflow: hidden;
+}
+
+.blog-post .blog-img:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.blog-post .blog-img .date {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #fff;
+  text-align: center;
+  padding: 5px 15px;
+  z-index: 1;
+  min-width: 60px;
+}
+
+.blog-post .blog-img .date span {
+  color: #101010;
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.blog-post .blog-img .date small {
+  color: #101010;
+}
+
+.blog-post .blog-img img {
+  max-width: 100%;
+  height: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.blog-post .blog-caption {
+  background-color: #1c1d24;
+  padding: 20px;
+  margin: -15px 20px 20px;
+  position: relative;
+}
+
+.blog-post .blog-caption h4 {
+  font-size: 17px;
+  color: #fff;
+  font-family: 'Poppins-medium';
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.blog-post .blog-caption h4:hover {
+  color: #4bffa5;
+}
+
+.blog-post .blog-caption p {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.blog-post .blog-caption .btn-readmore {
+  color: #f1f1f1;
+}
+
+.blog-post .blog-caption .btn-readmore:hover {
+  color: #4bffa5;
+}
+
+.blog-post .blog-caption .btn-readmore:hover i {
+  animation: shake 1s ease-in-out;
+  -webkit-animation: shake 1s ease-in-out;
+  -moz-animation: shake 1s ease-in-out;
+  -o-animation: shake 1s ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+}
+
+.blogModal .modal-body {
+  height: 75vh;
+  overflow-y: auto;
+}
+
+.blogModal .main-img {
+  max-width: 100%;
+  max-height: 500px;
+  margin-bottom: 20px;
+}
+
+.blogModal h2 {
+  color: #101010;
+  font-size: 20px;
+}
+
+.blogModal p {
+  color: #4f4646;
+}
+
+@keyframes shake {
+  0%, 100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  30%, 70% {
+    -webkit-transform: translateX(7px);
+    transform: translateX(7px);
+  }
+  40%, 60% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+}
+
+@-webkit-keyframes shake {
+  0%, 100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  30%, 70% {
+    -webkit-transform: translateX(7px);
+    transform: translateX(7px);
+  }
+  40%, 60% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+}
+/*# sourceMappingURL=Blog.css.map */

@@ -1,0 +1,48 @@
+#contact{
+    background-color: #1c1d24;
+}
+.ul-contact{
+    list-style-type: none;
+    padding-left: 0;
+    li{
+        margin-bottom: 25px;
+        font-size: 18px;
+        color: #f1f1f1;
+        a{
+            color: #f1f1f1; 
+            transition: 0.5s;
+            &:hover{
+                color: #4bffa5; 
+            }  
+        }
+    }
+    i{
+        background-color: rgba(75, 255, 165,0.1);
+        color: #4bffa5;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        text-align: center;
+line-height: 50px;
+font-size: 22px;
+    }
+}
+.form-control{
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    border-bottom: 3px solid #fefefe;
+    &:focus{
+        background-color: transparent;
+        color: #fff;  
+        border: none;
+        border-bottom: 3px solid #4bffa5 ;
+        box-shadow: none;
+    }
+    &.is-invalid:focus{
+        box-shadow: none;
+    }
+}
+ .was-validated .form-control:invalid:focus{
+    box-shadow: none;
+}

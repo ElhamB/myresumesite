@@ -1,0 +1,154 @@
+#about {
+  background: #1c1d24;
+}
+
+.about-sec p {
+  line-height: 24px;
+}
+
+.title-sub {
+  color: #1c1d24;
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.title-sub span {
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  display: inline-block;
+  width: 34px;
+  border-bottom: 3px solid #4bffa5;
+}
+
+.personal-list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #34495e;
+  padding-left: 0;
+}
+
+.personal-list li {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%;
+  margin-bottom: 7px;
+}
+
+.personal-list li span.title {
+  color: #888;
+}
+
+.btn-more {
+  border-bottom: 1px dashed #0d6efd;
+  display: inline-block;
+}
+
+.img-about {
+  position: relative;
+  z-index: 1;
+}
+
+.img-about .square-border {
+  width: 100%;
+  height: 200px;
+  border: 6px solid #fff;
+  position: absolute;
+  left: -90%;
+  top: 110px;
+  display: inline-block;
+}
+
+.img-about .square-solid {
+  width: 200px;
+  height: 200px;
+  background-color: #4bffa5;
+  position: absolute;
+  left: -80px;
+  bottom: -70px;
+  z-index: -1;
+  display: inline-block;
+}
+
+.personal-modal .modal-body {
+  max-height: 450px;
+  overflow-y: auto;
+}
+
+.collapse-con li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #999;
+}
+
+/*timeline*/
+.timeline-second-style .timeline-item {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.timeline-second-style .left-part {
+  width: 25%;
+  display: table-cell;
+  padding-right: 10px;
+  min-height: 100%;
+  text-align: left;
+  vertical-align: top;
+}
+
+.timeline-second-style .left-part span {
+  margin: 3px 0;
+  font-size: 14px;
+  line-height: 1.4em;
+  color: #888;
+}
+
+.timeline-second-style .divider {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  bottom: 0;
+  width: 1px;
+  background-color: #e0e0e0;
+}
+
+.timeline-second-style .divider:after {
+  content: '';
+  display: block;
+  margin-top: 7px;
+  width: 11px;
+  height: 11px;
+  margin-left: -5px;
+  border-radius: 5px;
+  background-color: #4bffa5;
+}
+
+.timeline-second-style .right-part {
+  width: 75%;
+  display: table-cell;
+  padding-right: 15px;
+  padding-left: 20px;
+  vertical-align: top;
+}
+
+.timeline-second-style .right-part h4 {
+  font-size: 16px;
+  margin-bottom: 3px;
+  color: #34495e;
+}
+
+.timeline-second-style .right-part span {
+  color: #888;
+  display: inline-block;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=About.css.map */

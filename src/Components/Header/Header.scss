@@ -1,0 +1,17 @@
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    font-family:  'Poppins-medium';
+.fixed-top{
+    background-color: #101010;
+}
+}
+.header .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.85);
+    font-size: 15px;
+    padding-right: 1rem;
+padding-left: 1rem;
+  }

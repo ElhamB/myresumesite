@@ -1,0 +1,46 @@
+#footer{
+    background-color: #101010;
+}
+.logoType{
+    display: block;
+    font-family: 'Poppins-bold';
+    font-size: 25px;
+    
+}
+.social-link {
+    display: inline-block;
+    .social-icon {
+        color: #fff;
+        font-size: 16px;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 36px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        text-align: center;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        text-align: center;
+        margin: 5px 8px;
+        border: 1px solid #fff;
+       
+    }
+    &:hover .social-icon {
+        border-radius: 0;
+        -webkit-transform: rotate(225deg);
+        transform: rotate(225deg);
+    }
+    &:hover .social-icon i {
+        -webkit-transform: rotate(130deg);
+        transform: rotate(130deg);
+    }
+}
+
+

@@ -1,0 +1,124 @@
+$greenColor:#4bffa5;
+.bg-home{
+   background-color: #101010;
+   position: relative;
+   min-height: 550px;
+   padding-top: 4rem;
+   h1{
+    color: #fff;
+    font-size: 20px;
+    line-height: 41px;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+   }
+   h1 strong{
+    color: $greenColor;
+}
+}
+
+.btn-download {
+    background-color: $greenColor;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 9px 0px;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 175px;
+height: 45px;
+margin: 10px;
+margin-left:0 ;
+border: none;
+-webkit-transition: all 0.2s linear 0s;
+transition: all 0.2s linear 0s;
+&::before{
+    content: "\f054";
+    font-family: FontAwesome;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    height: 100%;
+    width: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0 50% 50% 0;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+    -webkit-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+}
+&:hover{
+    text-indent: 30px;
+    color: #fff;
+}
+&:hover::before{
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    text-indent: 0;
+}
+ }
+
+.btn-send{
+    @extend .btn-download;
+    border: 2px solid $greenColor;
+    background-color: transparent;
+    color: $greenColor;
+}
+.text-right{
+    text-align: right;
+}
+.social-media{
+position: absolute;
+left: 10px;
+bottom: 10px;
+p{
+    color: #bbb;
+    font-size: 15px;
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    margin-bottom: 5rem;
+    &::after{
+        content: "";
+        position: absolute;
+        bottom: 80px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 1px;
+        height: 64px;
+        background: #e8e8e8;
+    }
+}
+
+ul{
+    padding-left: 20px;
+}
+ul li{
+list-style-type: none;
+margin-top: 10px;
+}
+ul li a{
+    color: #bbb;
+    font-size: 17px;
+}
+ul li a:hover,ul li a:focus{
+    color: $greenColor;
+}
+}

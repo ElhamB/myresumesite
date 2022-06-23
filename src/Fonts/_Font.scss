@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Poppins-light';
+    src: url('Fonts/PoppinsLatin-Light.eot');
+    src: url('Fonts/PoppinsLatin-Light.eot?#iefix') format('embedded-opentype'),
+        url('Fonts/PoppinsLatin-Light.woff2') format('woff2'),
+        url('Fonts/PoppinsLatin-Light.woff') format('woff'),
+        url('Fonts/PoppinsLatin-Light.ttf') format('truetype'),
+        url('Fonts/PoppinsLatin-Light.svg#PoppinsLatin-Light') format('svg');
+    font-weight: 300;
+    /* font-style: normal;
+    font-display: swap; */
+}
+
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url('Fonts/PoppinsLatin-Bold.eot');
+    src: url('Fonts/PoppinsLatin-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Fonts/PoppinsLatin-Bold.woff2') format('woff2'),
+        url('Fonts/PoppinsLatin-Bold.woff') format('woff'),
+        url('Fonts/PoppinsLatin-Bold.ttf') format('truetype'),
+        url('Fonts/PoppinsLatin-Bold.svg#PoppinsLatin-Bold') format('svg');
+    font-weight: bold;
+   /* font-style: normal;
+   font-display: swap; */
+}
+
+@font-face {
+    font-family: 'Poppins-medium';
+    src: url('Fonts/PoppinsLatin-Medium.eot');
+    src: url('Fonts/PoppinsLatin-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Fonts/PoppinsLatin-Medium.woff2') format('woff2'),
+        url('Fonts/PoppinsLatin-Medium.woff') format('woff'),
+        url('Fonts/PoppinsLatin-Medium.ttf') format('truetype'),
+        url('Fonts/PoppinsLatin-Medium.svg#PoppinsLatin-Medium') format('svg');
+    font-weight: 500;
+ 
+}
+

@@ -1,0 +1,147 @@
+#portfolio {
+  background-color: #1c1d24;
+}
+
+.controls ul {
+  list-style-type: none;
+}
+
+.controls ul li {
+  display: inline-block;
+  margin: 10px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.controls ul li.mixitup-control-active {
+  border-bottom: 2px solid #4bffa5;
+}
+
+.portfolio-con {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 1%;
+  width: 100%;
+  height: auto;
+  background: #4bffa5;
+  text-align: center;
+  cursor: pointer;
+  background: linear-gradient(-45deg, #4bffa5 0%, #101010 100%);
+}
+
+.portfolio-con img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.9;
+  -webkit-transition: opacity 0.35s, transform 0.35s;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+}
+
+.portfolio-con figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-con figcaption:after {
+  -webkit-transition: opacity 0.35s, transform 0.35s;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  content: '';
+  opacity: 0;
+  -webkit-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 0, 1);
+  transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 0, 1);
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+.portfolio-con figcaption a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.portfolio-con h4 {
+  opacity: 1;
+  -webkit-transform: scale3d(0.8, 0.8, 1);
+  transform: scale3d(0.8, 0.8, 1);
+  padding-top: 26%;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
+}
+
+.portfolio-con:hover img {
+  opacity: 0.7;
+  -webkit-transform: scale3d(1.05, 1.05, 1);
+  transform: scale3d(1.05, 1.05, 1);
+}
+
+.portfolio-con:hover h4 {
+  opacity: 1;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+
+.portfolio-con:hover figcaption::after {
+  opacity: 1;
+  -webkit-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 1, 1);
+  transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 1, 1);
+}
+
+.ul-skills {
+  list-style-type: none;
+}
+
+.ul-skills li {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 8px;
+  background-color: #4bffa5;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.portfolio-modal h5 {
+  color: #1c1d24;
+}
+
+.date-co span {
+  color: #888;
+}
+
+.img-portfolio {
+  max-width: 100%;
+}
+/*# sourceMappingURL=Portfolio.css.map */
