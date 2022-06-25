@@ -1,6 +1,7 @@
 import React from "react";
 import { Container,Row,Col} from 'react-bootstrap'
 import './Footer.css'
+
 class Footer extends React.Component{
     render(){
         return(
@@ -11,39 +12,39 @@ class Footer extends React.Component{
         <span className="logoType my-3">Elham Bagheri</span>
                 <div className="mb-3">
       
-                            <a href="https://www.linkedin.com/in/elhambagheri91/" class="social-link" >
-                                <span class="social-icon ">
+                            <a href="https://www.linkedin.com/in/elhambagheri91/" className="social-link" >
+                                <span className="social-icon ">
                                 <i className="fa fa-linkedin"></i>
                                 </span>
                             </a>
-                            <a href="https://www.instagram.com/fersuweb/" class="social-link " >
-                                <span class="social-icon ">
-                                    <i class="fa fa-instagram"></i>
+                            <a href="https://www.instagram.com/fersuweb/" className="social-link " >
+                                <span className="social-icon ">
+                                    <i className="fa fa-instagram"></i>
                                 </span>
                             </a>
-                            <a href="https://telegram.me/ebagheri91" class="social-link " >
-                                <span class="social-icon ">
-                                    <i class="fa fa-send"></i>
+                            <a href="https://telegram.me/ebagheri91" className="social-link " >
+                                <span className="social-icon ">
+                                    <i className="fa fa-send"></i>
                                 </span>
                             </a>
-                            <a href="https://api.whatsapp.com/send?phone=989351520241" class="social-link " >
-                                <span class="social-icon ">
-                                    <i class="fa fa-whatsapp"></i>
+                            <a href="https://api.whatsapp.com/send?phone=989351520241" className="social-link " >
+                                <span className="social-icon ">
+                                    <i className="fa fa-whatsapp"></i>
                                 </span>
                             </a>
-                            <a href="https://github.com/ElhamB" class="social-link " >
-                                <span class="social-icon ">
-                                    <i class="fa fa-github"></i>
+                            <a href="https://github.com/ElhamB" className="social-link " >
+                                <span className="social-icon ">
+                                    <i className="fa fa-github"></i>
                                 </span>
                             </a>
-                            {/* <a href="#" class="social-link " >
-                                <span class="social-icon ">
-                                    <i class="fa fa-pinterest"></i>
+                            {/* <a href="#" className="social-link " >
+                                <span className="social-icon ">
+                                    <i className="fa fa-pinterest"></i>
                                 </span>
                             </a> */}
-                            {/* <a href="#" class="social-link " >
-                                <span class="social-icon ">
-                                    <i class="fa fa-dribbble"></i>
+                            {/* <a href="#" className="social-link " >
+                                <span className="social-icon ">
+                                    <i className="fa fa-dribbble"></i>
                                 </span>
                             </a> */}
         </div>

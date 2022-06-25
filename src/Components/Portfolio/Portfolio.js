@@ -4,8 +4,7 @@ import mixitup from 'mixitup';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel/dist/assets/owl.theme.default.min.css';
-
-//import 'react-fancybox/lib/fancybox.css'
+import Fancybox from './Fancybox';
 
 import './Portfolio.css'
 
@@ -106,30 +105,39 @@ const Portfolio = () => {
   <Row>
     <Col lg="7" md={8} className='img-portfolio'>
     <img src="/images/portfolio/13.jpg" alt="img25"/>
+    <div>
+    <Fancybox>
+   
+        <a data-fancybox="gallery" href="/images/portfolio/13.jpg">
+          <img alt="" src="/images/portfolio/13.jpg" />
+        </a>
+
+        <a data-fancybox="gallery" href="/images/portfolio/12.jpg">
+          <img alt="" src="/images/portfolio/12.jpg" />
+        </a>
+
+        <a data-fancybox="gallery" href="/images/portfolio/11.jpg">
+          <img alt="" src="/images/portfolio/11.jpg" />
+        </a>
+
+        <a data-fancybox="gallery" href="/images/portfolio/16.jpg">
+          <img alt="" src="/images/portfolio/16.jpg" />
+        </a>
+     
+    </Fancybox>
+    </div>
     <OwlCarousel className='owl-theme' loop margin={10} nav>
-    <div class='item'>
-    {/* <ReactFancyBox
-     showCloseBtn={false}
-          thumbnail="https://loremflickr.com/320/240"
-          image="/images/portfolio/11.jpg"/> */}
+    <div className='item'>
+ 
     </div>
-    <div class='item'>
-    {/* <ReactFancyBox
-     showCloseBtn={false}
-          thumbnail="https://loremflickr.com/320/240"
-          image="/images/portfolio/12.jpg"/> */}
+    <div className='item'>
+    
     </div>
-    <div class='item'>
-    {/* <ReactFancyBox
-     showCloseBtn={false}
-          thumbnail="https://loremflickr.com/320/240"
-          image="/images/portfolio/13.jpg"/> */}
+    <div className='item'>
+   
     </div>
-    <div class='item'>
-    {/* <ReactFancyBox
-     showCloseBtn={false}
-          thumbnail="/images/portfolio/16.jpg0"
-          image="/images/portfolio/16.jpg"/> */}
+    <div className='item'>
+    
     </div>
  
 </OwlCarousel>
