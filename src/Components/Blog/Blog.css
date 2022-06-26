@@ -2,6 +2,10 @@
   background-color: #101010;
 }
 
+.blog-post {
+  cursor: pointer;
+}
+
 .blog-post .blog-img {
   position: relative;
   height: 237px;

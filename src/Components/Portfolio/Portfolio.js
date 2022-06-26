@@ -103,44 +103,34 @@ const Portfolio = () => {
         <Modal.Body>
         <Container fluid>
   <Row>
-    <Col lg="7" md={8} className='img-portfolio'>
-    <img src="/images/portfolio/13.jpg" alt="img25"/>
-    <div>
+    <Col lg="7" md={8} >
+      <div className='img-portfolio text-center mb-3'>
+      <img src="/images/portfolio/13.jpg" alt="img25"/>
+      </div>
     <Fancybox>
-   
-        <a data-fancybox="gallery" href="/images/portfolio/13.jpg">
+    <OwlCarousel id='galleryProduct' className='owl-theme' margin={10} nav>
+    <div className='item'>
+    <a data-fancybox="gallery" href="/images/portfolio/13.jpg">
           <img alt="" src="/images/portfolio/13.jpg" />
         </a>
-
-        <a data-fancybox="gallery" href="/images/portfolio/12.jpg">
+    </div>
+    <div className='item'>
+    <a data-fancybox="gallery" href="/images/portfolio/12.jpg">
           <img alt="" src="/images/portfolio/12.jpg" />
         </a>
-
-        <a data-fancybox="gallery" href="/images/portfolio/11.jpg">
+    </div>
+    <div className='item'>
+    <a data-fancybox="gallery" href="/images/portfolio/11.jpg">
           <img alt="" src="/images/portfolio/11.jpg" />
         </a>
-
-        <a data-fancybox="gallery" href="/images/portfolio/16.jpg">
+    </div>
+    <div className='item'>
+    <a data-fancybox="gallery" href="/images/portfolio/16.jpg">
           <img alt="" src="/images/portfolio/16.jpg" />
         </a>
-     
-    </Fancybox>
     </div>
-    <OwlCarousel className='owl-theme' loop margin={10} nav>
-    <div className='item'>
- 
-    </div>
-    <div className='item'>
-    
-    </div>
-    <div className='item'>
-   
-    </div>
-    <div className='item'>
-    
-    </div>
- 
 </OwlCarousel>
+</Fancybox>
     </Col>
     <Col lg="5" md={4}>
   <section>

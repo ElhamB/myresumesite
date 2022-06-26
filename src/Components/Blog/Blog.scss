@@ -2,10 +2,12 @@
     background-color: #101010;
 }
 .blog-post{
+    cursor: pointer;
     .blog-img {
         position: relative;
        height: 237px;
        overflow: hidden;
+    
        &:hover img{
         transform: scale(1.1);
        }

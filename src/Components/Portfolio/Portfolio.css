@@ -144,4 +144,33 @@
 .img-portfolio {
   max-width: 100%;
 }
+
+.owl-theme .owl-dots {
+  display: none;
+}
+
+#galleryProduct .owl-prev, #galleryProduct .owl-next {
+  width: 30px;
+  height: 30px;
+  color: #242829;
+  text-align: center;
+  background-color: #fff;
+  position: absolute;
+  top: 45%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#galleryProduct .owl-prev span, #galleryProduct .owl-next span {
+  font-size: 40px;
+  line-height: 27px;
+}
+
+#galleryProduct .owl-prev {
+  left: -35px;
+}
+
+#galleryProduct .owl-next {
+  right: -35px;
+}
 /*# sourceMappingURL=Portfolio.css.map */
