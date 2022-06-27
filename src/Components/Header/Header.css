@@ -7,14 +7,26 @@
   font-family: 'Poppins-medium';
 }
 
-.header .fixed-top {
-  background-color: #101010;
+.header .bg-dark {
+  background-color: #101010 !important;
 }
 
-.header .navbar-dark .navbar-nav .nav-link {
+.header .navbar-light .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.85);
   font-size: 15px;
   padding-right: 1rem;
   padding-left: 1rem;
+}
+
+.header .navbar-light .navbar-nav .nav-link:hover {
+  color: #4bffa5;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-toggler:hover {
+  color: #fff;
 }
 /*# sourceMappingURL=Header.css.map */

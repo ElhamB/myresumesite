@@ -173,4 +173,13 @@
 #galleryProduct .owl-next {
   right: -35px;
 }
+
+@media screen and (max-width: 767px) {
+  #galleryProduct .owl-next {
+    right: -5px;
+  }
+  #galleryProduct .owl-prev {
+    left: -5px;
+  }
+}
 /*# sourceMappingURL=Portfolio.css.map */

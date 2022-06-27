@@ -5,13 +5,22 @@
     right: 0;
     z-index: 10;
     font-family:  'Poppins-medium';
-.fixed-top{
-    background-color: #101010;
+.bg-dark{
+    background-color: #101010 !important;
 }
 }
-.header .navbar-dark .navbar-nav .nav-link {
+.header .navbar-light .navbar-nav .nav-link {
     color: rgba(255,255,255,.85);
     font-size: 15px;
     padding-right: 1rem;
 padding-left: 1rem;
+&:hover{
+    color: #4bffa5;
+}
+  }
+  .navbar-light .navbar-brand,.navbar-light .navbar-toggler{
+    color: rgba(255,255,255,.85) !important;
+&:hover{
+    color: #fff;
+}
   }

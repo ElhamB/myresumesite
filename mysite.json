@@ -1,19 +1,195 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+ "about":[ {
+    "id": 1,
+    "description": "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design and develop digital user experiences through the bold interface and meaningful interactions. Check out my Portfolio",
+    "firstName":"Elham",
+    "lastName":"Bagheri",
+    "email":"it.ebagheri@gmail.com",
+    "skypeId":"e.bagheri_1",
+    "phone":"(+98)9351520241",
+    "nationality":"Iran",
+    "Age":"31",
+    "Languages":"English,Persion"
   }
+],
+"work": [
+  {
+    "id": 1,
+    "startDate": "Aug 2017",
+    "endDate": "Jan 2021",
+    "jobTitle": "Front-end Developer",
+    "description":"• Worked in a team of 6 developers to implement a knowledge management system for a government agency with 2229 active users. This platform currently has 511 knowledge (idea, suggestion, experience, articles, and scientific findings) that individuals share with each other. • Redesigned of admission and review suggestions system that is launched in 10 provinces of our country and at least 14 different organizations, and has at least 1500 active users in each organization. • Developed an online store with a team of 4 developers that increased the owner's sales profit by 20% in one month.• Worked in a team of 3 developers to implement an academic counseling platform that got an official license from the Ministry of Education.• Implemented a personal library site with a team of 5 developers for people who can highlight books, write notes and add books to my favorites with over 450 users.• Developed a comprehensive exam design system with a team of 4 developers for students in all levels and disciplines, which has about 1000 users.• Worked in a team of 4 developers to develop a cargo transportation system that has more than 10,000 registered trucks.• Increased the company's profit by developing a website for our city municipality, which encouraged other government organizations in our city, such as the governor's office, the council, the cultural heritage organization and the welfare organization, to redesign their site by our company.• Supported the suggestion system project for one year.• Implemented websites compatible with multiple browsers.• Drew paper prototypes for all projects and delivered them to the graphic designer. • Developed 30+ responsive websites using HTML5, CSS3, Bootstrap, JavaScript and JQuery.",
+    "companyName":"Jadooye Fekr Software Company"
+  },{
+    "id": 2,
+    "startDate": "May 2017",
+    "endDate": "Aug 2017",
+    "jobTitle": "Front-end Developer Intern",
+    "description":"",
+    "companyName":"Jadooye Fekr Software Company"
+  },{
+    "id": 3,
+    "startDate": "Dec 2015",
+    "endDate": "Nov 2016 ",
+    "jobTitle": "Front-end Developer",
+    "description":"•Developed responsive sites using HTML5, CSS, CSS3, Bootstrap3, JavaScript and JQuery.• Learned seo tips• Designed and developed Mihanvila website - a site for booking accommodation • Designed and developed Gilan province tourism system",
+    "companyName":"Data Processing Co"
+  },{
+    "id": 4,
+    "startDate": "Sep 2015",
+    "endDate": "Dec 2015",
+    "jobTitle": "Front-end Developer Intern",
+    "description":"",
+    "companyName":"Data Processing Co"
+  }
+],
+"education": [
+  {
+    "id": 1,
+    "startDate": "Sep 2014",
+    "endDate": "Sep 2016",
+    "major": "M.Sc. in Information Technology Engineering",
+    "university": "Mazandaran University of Science and Technology"
+  },
+  {
+    "id": 2,
+    "startDate": "Sep 2009",
+    "endDate": "Sep 2013",
+    "major": "B.Sc. in Information Technology Engineering[full scholarship]",
+    "university": "University of Mazandaran"
+  }
+],
+"skills": [
+  {
+    "id": 1,
+    "name": "React.js",
+    "level": 80
+  },
+  {
+    "id": 2,
+    "name": "Redux",
+    "level": 70
+  },
+  {
+    "id": 3,
+    "name": "TypeScript",
+    "level": 50
+  },
+  {
+    "id": 4,
+    "name": "HTML5",
+    "level": 100
+  },
+  {
+    "id": 5,
+    "name": "CSS3",
+    "level": 100
+  },
+  {
+    "id": 6,
+    "name": "Saas",
+    "level": 90
+  },
+  {
+    "id": 7,
+    "name": "JavaScript(ES6)",
+    "level": 1
+  },{
+    "id": 8,
+    "name": "jQuery",
+    "level": 90
+  },{
+    "id": 9,
+    "name": "Bootstrap",
+    "level": 100
+  },
+  {
+    "id": 10,
+    "name": "UI/UX",
+    "level": 80
+  },
+  {
+    "id": 11,
+    "name": "SQL/MySQL",
+    "level": 85
+  },
+  {
+    "id": 12,
+    "name": "Git/Github",
+    "level": 60
+  }
+],
+  "portfolio":[
+    {
+      "id": 1,
+      "projectTitle":"Academic counseling platform (Noayand)",
+      "startDate": "Jan 2020",
+      "endDate": "Jan 2021",
+      "description":"Noayand, the first and most complete online counseling and planning system in the country, was launched in March 2017 with the aim of creating a suitable and secure platform for counselors, students and their parents to communicate, and operates in the form of a website and a mobile application. It has an official license from the Ministry of Education.",
+      "companyName":"Jadooye Fekr Co.",
+      "projectLink":"https://www.noayand.com/home/",
+      "mainImage":"/images/portfolio/13.jpg"
+    }
+  ],
+  "SkillPortfolio":[
+    {
+      "id": 1,
+      "name": "Html5",
+      "portfolioId": 1
+    },
+    {
+      "id": 2,
+      "name": "css3",
+      "portfolioId": 1
+    },
+    {
+      "id": 3,
+      "name": "javascript",
+      "portfolioId": 1
+    },
+    {
+      "id": 4,
+      "name": "jquery",
+      "portfolioId": 1
+    }
+  ],
+  "galleryPortfolio":[
+    {
+      "id": 1,
+      "image": "/images/portfolio/n1.png",
+      "portfolioId": 1
+    },
+    {
+      "id": 2,
+      "image": "/images/portfolio/n2.png",
+      "portfolioId": 1
+    },
+    {
+      "id": 3,
+      "image": "/images/portfolio/n5.png",
+      "portfolioId": 1
+    }
+  ]
+  ,
+  "post":[
+    {
+      "id": 1,
+      "title":"Top Web Design Trends for 2022",
+      "Date": "10 Jan 2020",
+      "summary":"Staying current on the top web design trends and standards is crucial to the success of your website. Here are the latest web design trends and standards for 2021.",
+      "description":"web design is all about looking to the future. Because of its relationship with technology, the digital realm can be a showcase for new innovations in animation, interaction and overall immersion each and every year. And 2022 promises much to look forward to, as we’ll soon discover in the following web design trends.The 80s and 90s are making a return, typography is taking a leading role, and live animation is ascending to new heights. Visual styles, meanwhile, run the gamut from mind-bendingly high-tech to whimsically handcrafted.All in all, 2022 is shaping up to be a diverse and experimental entry in the digital annals. But before we settle into this brave new year, let’s preview the 9 innovative web design trends coming up in 2022.",
+      "mainImage":"/images/blog/news1.jpg"
+    }
+  ]
+  ,
+  "contact":[
+    {
+      "id": 1,
+      "name":"",
+      "email": "",
+      "subject":"",
+      "comment":""
+    }
+  ]
+
 }

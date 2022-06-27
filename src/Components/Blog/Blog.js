@@ -25,10 +25,10 @@ const Blog = () => {
           </Col>
         </Row>
         <Row>
-          <Col md="4" sm="6">
+          <Col lg="4" md="6" sm="12">
             <article className="blog-post" onClick={()=>setLgShow(true)}>
               <div className="blog-img">
-              <img src="/images/blog/news1.jpg" />
+              <img src="/images/blog/news1.jpg" alt='img' />
               <div className="date">
                 <span>05</span>
                 <small>Aug</small>
@@ -49,10 +49,10 @@ const Blog = () => {
               </div>
             </article>
           </Col>
-          <Col md="4" sm="6">
+          <Col lg="4" md="6" sm="12">
             <article className="blog-post" onClick={()=>setLgShow(true)}>
               <div className="blog-img">
-              <img src="/images/blog/news2.jpg" />
+              <img src="/images/blog/news2.jpg" alt='img' />
               <div className="date">
                 <span>08</span>
                 <small>Jun</small>
@@ -71,10 +71,10 @@ const Blog = () => {
               </div>
             </article>
           </Col>
-          <Col md="4" sm="6">
+          <Col lg="4" md="6" sm="12">
             <article className="blog-post" onClick={()=>setLgShow(true)}>
               <div className="blog-img">
-              <img src="/images/blog/news4.png" />
+              <img src="/images/blog/news4.png" alt='img' />
               <div className="date">
                 <span>12</span>
                 <small>Jul</small>
@@ -105,9 +105,9 @@ const Blog = () => {
   <Row>
     <Col  md={12}>
       <article className="blog-details">
-      <img src="/images/blog/news4.png" className="main-img" />
+      <img src="/images/blog/news4.png" className="main-img" alt='img' />
       <h2 >Top Web Design Trends for 2022</h2>
-      <div className="mb-2"><i className="fa fa-calendar me-2"></i> 10 jun</div>
+      <div className="mb-2"><i className="fa fa-calendar me-2"></i> 10 jun 2022</div>
       <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
       </p>

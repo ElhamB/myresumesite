@@ -28,6 +28,11 @@ a, a:hover, a:focus {
   outline: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 button:focus, input, button, input:focus {
   outline: none;
 }
@@ -400,6 +405,12 @@ h1, h2, h3, h4, h5, h6 {
   100% {
     -webkit-transform: scale(1, 0);
             transform: scale(1, 0);
+  }
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1250px) {
+  .container {
+    max-width: 1000px !important;
   }
 }
 /*# sourceMappingURL=index.css.map */

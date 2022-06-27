@@ -1,4 +1,7 @@
 $greenColor:#4bffa5;
+.img-home{
+    float: right;
+}
 .bg-home{
    background-color: #101010;
    position: relative;
@@ -121,4 +124,28 @@ ul li a{
 ul li a:hover,ul li a:focus{
     color: $greenColor;
 }
+}
+@media screen and (max-width:1200px) {
+    .social-media {
+        left: 5px;
+      }
+}
+@media screen and (min-width:992px) and(max-width:1100px){
+.top-sec{
+    padding-left: 40px;
+}
+}
+@media screen and (max-width:992px){
+    .bg-home h1 {
+        margin-top: 2rem;
+    }
+    .btn-download, .btn-send{
+        width: 155px;
+    }
+}
+@media screen and (max-width:768px){
+    .bg-home {
+        min-height: auto;
+        padding-bottom: 4rem;
+      }
 }

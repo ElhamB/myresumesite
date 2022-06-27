@@ -1,5 +1,5 @@
 import React,{ useState }  from 'react'
-import { Container,Row,Col,Image,Modal,Button,Collapse } from 'react-bootstrap'
+import { Container,Row,Col,Image,Modal,Collapse } from 'react-bootstrap'
 import './About.css'
 
 const About = () => {
@@ -12,9 +12,9 @@ const About = () => {
     <div id='about' className='pt-6 pb-9'>
       <Container>
         <Row>
-        <Col md={6} sm={12}>
+        <Col className='d-none d-md-block' md={6} sm={12}>
           <div className='img-about'>
-          <Image src='/images/eli.jpg' rounded fluid/>
+          <Image src='/images/eli.jpg' alt='Elham Bagheri' rounded fluid/>
           <span className='square-border'></span>
           <span className='square-solid'></span>
           </div>
