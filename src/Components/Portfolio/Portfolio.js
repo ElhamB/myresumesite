@@ -20,7 +20,10 @@ const Portfolio = () => {
       },
       animation: {
         duration: 500
-      }
+      },
+      load: {
+        filter: '.all'
+    }
     });
   }, []);  
   return (
@@ -43,6 +46,7 @@ const Portfolio = () => {
   <Col lg="12" className='text-center'>
     <div className="controls">
        <ul>
+       <li className="control mixitup-control" data-filter=".all" >All</li>
         <li className="control mixitup-control" data-filter=".web">Website design</li>
         <li className="control mixitup-control" data-filter=".ui">UI/UX</li>
         <li className="control mixitup-control" data-filter=".photo">Photography</li>
@@ -52,7 +56,7 @@ const Portfolio = () => {
           </Col>
         </Row>
 <Row className='items'>
-  <Col md="4" sm="6" className="item web">
+  <Col md="4" sm="6" className="item web all">
 	<figure className="portfolio-con">
 						<img src="/images/portfolio/16.jpg" alt="img25"/>
 						<figcaption>
@@ -62,7 +66,7 @@ const Portfolio = () => {
 					</figure>
       
     </Col>
-    <Col md="4" sm="6" className="item web">
+    <Col md="4" sm="6" className="item web all">
     <figure className="portfolio-con">
 						<img src="/images/portfolio/11.jpg" alt="img25"/>
 						<figcaption>
@@ -72,7 +76,7 @@ const Portfolio = () => {
 					</figure>
       
 </Col>
-<Col md="4" sm="6" className="item ui">
+<Col md="4" sm="6" className="item ui all">
 <figure className="portfolio-con">
 						<img src="/images/portfolio/12.jpg" alt="img25"/>
 						<figcaption>
@@ -82,7 +86,7 @@ const Portfolio = () => {
 					</figure>
       
 </Col>
-<Col md="4" sm="6" className="item photo">
+<Col md="4" sm="6" className="item photo all">
 <figure className="portfolio-con">
 						<img src="/images/portfolio/13.jpg" alt="img25"/>
 						<figcaption>
@@ -166,3 +170,5 @@ const Portfolio = () => {
 }
 
 export default Portfolio
+
+
