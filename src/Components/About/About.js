@@ -32,8 +32,8 @@ const About = () => {
                             <h5>A <strong>Front-end Developer</strong> based in Iran</h5>
                         </div>
                         <p>
-                        I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions. Check out my Portfolio
-                        </p>
+                        I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.
+                        I have worked as a front-end developer in IT and software development companies. I have more than 4 years of experience in React, Redux, Typescript, JavaScript(ES6), jQuery, Html5, CSS3, Saas, and Bootstrap. Besides, I am familiar with ASP.NET and worked in ASP.NET MVC and ASP.NET Core. My experience in large-scale projects with many details and challenges makes me superior. I have the experience of implementing more than 30 projects in different fields.                        </p>
                <div>
                 <a className='btn-download' href='#'>Download CV</a><a className='btn-send' onClick={() => setLgShow(true)}>More About Me</a>
               </div>
@@ -78,17 +78,17 @@ const About = () => {
                                         <Collapse in={open}>
                                           <div className='collapse-con' id="moredetails-1">
                                           <ul>
-                                            <li>
-                                            Work in a team to implement a knowledge management system for a government agency with 2229 active users. This platform currently has 511 knowledge (idea, suggestion, experience, articles, and scientific findings) that individuals share with each other.
+                                              <li>
+                                            Increased scalability, maintainability, and responsiveness of cross-browser code of the company's old projects by 53%.
                                             </li>
                                             <li>
-                                            Redesign of admission and review suggestions system that is launched in 10 provinces of our country and at least 14 different organizations, and has at least 1500 active users in each organization.
+                                            Developed an online store with a team of 4 developers that increased the owner's sales profit by 20% in one month.
                                             </li>
                                             <li>
-                                            Develop an online store with a team of 4 developers that increased the owner's sales profit by 20% in one month.
+                                          	Recommending solutions for a user-friendly interface with the design team.
                                             </li>
                                             <li>
-                                            Work in a team to implement an academic counseling platform that got an official license from the Ministry of Education
+                                            	Reduced development time by customizing a CMS and Bootstrap 4 RTL.
                                             </li>
                                           </ul>
                                           </div>
